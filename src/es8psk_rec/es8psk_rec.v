@@ -10,7 +10,6 @@ module es8psk_rec
     output          fail_data
     );
 
-
 ///////////// matched filter - LPF 1.8 MHz ///////////////////////////////////////////////////////
 wire [19:0] fir_real;
 wire [19:0] fir_imag;
